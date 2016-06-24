@@ -15,17 +15,20 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/edEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="email" />
 
         <EditText
+            android:id="@+id/edPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:hint="password" />
 
         <Button
+            android:id="@+id/btnLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
@@ -34,6 +37,7 @@
             android:textColor="#fff" />
 
         <TextView
+            android:id="@+id/txtSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
